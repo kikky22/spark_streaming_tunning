@@ -16,5 +16,5 @@
 ### 사용방법
 
 ### Spark 실행옵션
-<spark.streaming.checkpoint.disable>true</spark.streaming.checkpoint.disable>
+<spark.streaming.checkpoint.disable>true</spark.streaming.checkpoint.disable>  
 <spark.streaming.clock use.even.part="true">org.apache.spark.util.custom.System1MinuteAddClock</spark.streaming.clock>
