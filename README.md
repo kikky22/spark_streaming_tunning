@@ -11,3 +11,10 @@
 ![alt](https://github.com/kikky22/spark_streaming_tunning/blob/master/assets/spark_cpu_uage.png?raw=true)
 
 ![alt](https://github.com/kikky22/spark_streaming_tunning/blob/master/assets/spark_process_time_tunning.png?raw=true)
+
+
+### 사용방법
+
+### Spark 실행옵션
+<spark.streaming.checkpoint.disable>true</spark.streaming.checkpoint.disable>
+<spark.streaming.clock use.even.part="true">org.apache.spark.util.custom.System1MinuteAddClock</spark.streaming.clock>
